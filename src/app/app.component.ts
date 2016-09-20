@@ -9,6 +9,6 @@ export class AppComponent {
   title = 'app works!';
 
   constructor() {
-    throw "Test Error"
+    throw new Error("Test Error")
   }
 }
